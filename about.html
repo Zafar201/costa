@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <title>About Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Template Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/preloader.min.css" rel="stylesheet">
+    <link href="css/circle.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/fm.revealator.jquery.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="style.scss"> -->
+
+    <!-- CSS Skin File -->
+    <link href="css/skins/yellow.css" rel="stylesheet">
+
+    <!-- Live Style Switcher - demo only -->
+    <link rel="alternate stylesheet" type="text/css" title="blue" href="css/skins/blue.css" />
+    <link rel="alternate stylesheet" type="text/css" title="green" href="css/skins/green.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellow" href="css/skins/yellow.css" />
+    <link rel="alternate stylesheet" type="text/css" title="blueviolet" href="css/skins/blueviolet.css" />
+    <link rel="alternate stylesheet" type="text/css" title="goldenrod" href="css/skins/goldenrod.css" />
+    <link rel="alternate stylesheet" type="text/css" title="magenta" href="css/skins/magenta.css" />
+    <link rel="alternate stylesheet" type="text/css" title="orange" href="css/skins/orange.css" />
+    <link rel="alternate stylesheet" type="text/css" title="purple" href="css/skins/purple.css" />
+    <link rel="alternate stylesheet" type="text/css" title="red" href="css/skins/red.css" />
+    <link rel="alternate stylesheet" type="text/css" title="yellowgreen" href="css/skins/yellowgreen.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleswitcher.css" />
+
+    <!-- Modernizr JS File -->
+    <script src="js/modernizr.custom.js"></script>
+</head>
+
+<body class="about">
+<!-- Live Style Switcher Starts - demo only -->
+<div id="switcher" class="">
+    <div class="content-switcher">
+        <h4>STYLE SWITCHER</h4>
+        <ul>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('purple');" title="purple" class="color"><img src="img/styleswitcher/purple.png" alt="purple"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('red');" title="red" class="color"><img src="img/styleswitcher/red.png" alt="red"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('blueviolet');" title="blueviolet" class="color"><img src="img/styleswitcher/blueviolet.png" alt="blueviolet"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('blue');" title="blue" class="color"><img src="img/styleswitcher/blue.png" alt="blue"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('goldenrod');" title="goldenrod" class="color"><img src="img/styleswitcher/goldenrod.png" alt="goldenrod"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('magenta');" title="magenta" class="color"><img src="img/styleswitcher/magenta.png" alt="magenta"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('yellowgreen');" title="yellowgreen" class="color"><img src="img/styleswitcher/yellowgreen.png" alt="yellowgreen"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('orange');" title="orange" class="color"><img src="img/styleswitcher/orange.png" alt="orange"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('green');" title="green" class="color"><img src="img/styleswitcher/green.png" alt="green"/></a>
+            </li>
+            <li>
+                <a href="#" onclick="setActiveStyleSheet('yellow');" title="yellow" class="color"><img src="img/styleswitcher/yellow.png" alt="yellow"/></a>
+            </li>
+        </ul>
+
+        <div id="hideSwitcher">&times;</div>
+    </div>
+
+</div>
+<div id="showSwitcher" class="styleSecondColor"><i class="fa fa-cog fa-spin"></i></div>
+<!-- Live Style Switcher Ends - demo only -->
+<!-- Header Starts -->
+<header class="header" id="navbar-collapse-toggle">
+    <!-- Fixed Navigation Starts -->
+    <ul class="icon-menu d-none d-lg-block revealator-slideup revealator-once revealator-delay1">
+        <li class="icon-box ">
+            <i class="fa fa-home"  aria-hidden="true"></i>
+            <a href="index.html">
+                <h2>Home</h2>
+            </a>
+        </li>
+        <li class="icon-box active">
+            <i class="fa fa-user"  aria-hidden="true"></i>
+            <a href="about.html">
+                <h2>About</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-briefcase"  aria-hidden="true"></i>
+            <a href="portfolio.html">
+                <h2>Portfolio</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-tasks"  aria-hidden="true"></i>
+            <a href="project.html">
+                <h2>Project</h2>
+            </a>
+        </li>
+
+        <li class="icon-box">
+            <i class="fa fa-university "  aria-hidden="true" ></i>
+            <a href="Education.html">
+                <h2>Education</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-envelope-open"  aria-hidden="true"></i>
+            <a href="contact.html">
+                <h2>Contact</h2>
+            </a>
+        </li>
+        <li class="icon-box">
+            <i class="fa fa-comments"  aria-hidden="true"></i>
+            <a href="blog.html">
+                <h2>Blog</h2>
+            </a>
+        </li>
+    </ul>
+    <!-- Fixed Navigation Ends -->
+    <!-- Mobile Menu Starts -->
+    <nav role="navigation" class="d-block d-lg-none">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul class="list-unstyled" id="menu">
+                <li><a href="index.html"><i class="fa fa-home"></i><span>Home</span></a></li>
+                <li class="active"><a href="about.html"><i class="fa fa-user"></i><span>About</span></a></li>
+                <li><a href="portfolio.html"><i class="fa fa-folder-open"></i><span>Portfolio</span></a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope-open"></i><span>Contact</span></a></li>
+                <li><a href="blog.html"><i class="fa fa-comments"></i><span>Blog</span></a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Mobile Menu Ends -->
+</header>
+<!-- Header Ends -->
+<!-- Page Title Starts -->
+<section class="title-section text-left text-sm-center revealator-slideup revealator-once revealator-delay1">
+    <h1>ABOUT <span>ME</span></h1>
+    <span class="title-bg">Resume</span>
+</section>
+<!-- Page Title Ends -->
+
+<section>
+    <div class="container">
+        <div class="row aboutt">
+            <div class="col-lg-12">
+                <div class="col-12 d-block d-sm-none " style="margin-top: 84px;">
+                    <img src="img/5648.webp" class="img-fluid main-img-mobile" alt="my picture" />
+                </div>
+                <h3 class="text-uppercase custom-title mb-0 ft-wt-600">About costa</h3>
+                <h6>To all the youths out there,  never look down or back down on your dreams. </h6> <br><br>
+                <h6>A brief history.</h6>
+                <p>I grew up in the countryside of Zimbabwe herding cattle and without knowledge whatsoever about professional soccer. All I knew when it came to soccer, was kicking a homemade plastic ball whilst on the lookout for the livestock. Without a television set, live football games were a fairytale. We would make balls out of plastic and paper and play towards sunset whilst herding cattle.</p>
+                <p>I moved to  Chitungwiza (one of the biggest ghettos in Zimbabwe) during the mid primary level and experienced a whole new lifestyle in almost every aspect including football. Even though we were still playing with plastic balls in the streets,  real bouncing soccer balls were now available at school! A bit more youths were involved and without cattle herding. Although I now had the opportunity to watch TV, I was never really a fan of watching live soccer, street games were much more appealing for me. At school, the competitions were much different than the countryside, as they had more spectators and better organization.</p>
+                <p>I signed for my 1st premier league team in 2004 at the age of 18 for AmaZulu Fc marking the beginning of my professional journey. But still football was still not the priority, school was. I moved on to Masvingo United where I spent two seasons before being spotted by a Polish scout who took me to one of the lowest levels in the Polish league (7th league known as A-klasa in Poland) in 2008. At that time, I did not know that I was being sent to Poland to such a low league. In any case,  I later worked my way up the ladder signing for Zaglebie Lubin in the city of Lubin (Poland), which was in 1st division in 2008. Together with that team, we gained promotion to Ekstraklasa (highest soccer level in Poland) in that same year, marking a big achievement for Lubin. Cementing my place as a regular starter, I went on to spend five seasons in Ekstraklasa with Zaglebie Lubin.</p>
+                <p>Moving to the Czech Republic marked another stage in my amazing football journey. I won my first domestic league title, league cup, and super cup in the 2013/2014 season and was voted the best foreign player of that season. In addition to achievements with AC Sparta Praha locally, we featured in one of the prestigious European Cups, the UEFA Europa cup until the quarter-finals in the 2015/2016 season, unforgettable experience! The AC Sparta Praha team introduced me to greater football heights, since every season the goal was to win the title and play in European cups.</p>
+                <p>I was not the most talented or skillful youth, but I got an opportunity, which I worked hard to  preserve. For the youths out there (especially Ghetto youths like me), it doesn’t matter where you are, what you have, and what you don’t have. It matters most what you believe in and what you fight for. Inner strength is the beginning of a successful journey. The right attitude, focus, and discipline can open a lot of doors.  Scroll down for more.</p>
+            </div>
+        </div>
+    </div>
+    
+</section>
+<!-- Main Content Starts -->
+<!-- <section class="main-content revealator-slideup revealator-once revealator-delay1">
+    <div class="container">
+        <div class="row">
+            Personal Info Starts
+            <div class="col-12 col-lg-5 col-xl-6">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="text-uppercase custom-title mb-0 ft-wt-600">personal infos</h3>
+                    </div>
+                    <div class="col-12 d-block d-sm-none">
+                        <img src="img/img-mobile.jpg" class="img-fluid main-img-mobile" alt="my picture" />
+                    </div>
+                    <div class="col-6">
+                        <ul class="about-list list-unstyled open-sans-font">
+                            <li> <span class="title">first name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Steve</span> </li>
+                            <li> <span class="title">last name :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Milner</span> </li>
+                            <li> <span class="title">Age :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">27 Years</span> </li>
+                            <li> <span class="title">Nationality :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Tunisian</span> </li>
+                            <li> <span class="title">Freelance :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Available</span> </li>
+                        </ul>
+                    </div>
+                    <div class="col-6">
+                        <ul class="about-list list-unstyled open-sans-font">
+                            <li> <span class="title">Address :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">Tunis</span> </li>
+                            <li> <span class="title">phone :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">+21621184010</span> </li>
+                            <li> <span class="title">Email :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">you@mail.com</span> </li>
+                            <li> <span class="title">Skype :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">steve.milner</span> </li>
+                            <li> <span class="title">langages :</span> <span class="value d-block d-sm-inline-block d-lg-block d-xl-inline-block">French, English</span> </li>
+                        </ul>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <a href="about.html" class="btn btn-download">Download CV</a>
+                    </div>
+                </div>
+            </div>
+            Personal Info Ends
+            Boxes Starts
+            <div class="col-12 col-lg-7 col-xl-6 mt-5 mt-lg-0">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="box-stats with-margin">
+                            <h3 class="poppins-font position-relative">12</h3>
+                            <p class="open-sans-font m-0 position-relative text-uppercase">years of <span class="d-block">experience</span></p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="box-stats with-margin">
+                            <h3 class="poppins-font position-relative">97</h3>
+                            <p class="open-sans-font m-0 position-relative text-uppercase">completed <span class="d-block">projects</span></p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="box-stats">
+                            <h3 class="poppins-font position-relative">81</h3>
+                            <p class="open-sans-font m-0 position-relative text-uppercase">Happy<span class="d-block">customers</span></p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="box-stats">
+                            <h3 class="poppins-font position-relative">53</h3>
+                            <p class="open-sans-font m-0 position-relative text-uppercase">awards <span class="d-block">won</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!-- Boxes Ends -->
+        </div>
+        <hr class="separator">
+        <!-- Skills Starts -->
+        <!-- <div class="row">
+            <div class="col-12">
+                <h3 class="text-uppercase pb-4 pb-sm-5 mb-3 mb-sm-0 text-left text-sm-center custom-title ft-wt-600">My Skills</h3>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p25">
+                    <span>25%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">html</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p89">
+                    <span>89%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">javascript</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p70">
+                    <span>70%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">css</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p66">
+                    <span>66%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">php</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p95">
+                    <span>95%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">wordpress</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p50">
+                    <span>50%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">jquery</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p65">
+                    <span>65%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">angular</h6>
+            </div>
+            <div class="col-6 col-md-3 mb-3 mb-sm-5">
+                <div class="c100 p45">
+                    <span>45%</span>
+                    <div class="slice">
+                        <div class="bar"></div>
+                        <div class="fill"></div>
+                    </div>
+                </div>
+                <h6 class="text-uppercase open-sans-font text-center mt-2 mt-sm-4">react</h6>
+            </div>
+        </div> -->
+        <!-- Skills Ends -->
+
+      <!-- <style>
+           img{
+              height: 278px;
+          }
+      </style>
+         -->
+
+        <hr class="separator mt-1">
+        <!-- Experience & Education Starts -->
+        <!-- <div class="row">
+            <div class="col-12">
+                <h3 class="text-uppercase pb-5 mb-0 text-left text-sm-center custom-title ft-wt-600">MY Football <span> </span> career</h3>
+            </div>
+            <div class="col-lg-6 m-15px-tb">
+                <div class="resume-box">
+                    <ul>
+                        <li>
+                            <div class="icon  ">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
+                        <div class="col-lg-4">
+                            <span class="time open-sans-font text-uppercase">2018 - Present</span>
+                            <h5 class="poppins-font text-uppercase">Web Developer <span class="place open-sans-font">Envato</span></h5>
+                            <p class="open-sans-font">Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit, </p>
+                            <img src="img/about/2020.jpg" alt="">
+                        </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2013 - 2018</span>
+                            <h5 class="poppins-font text-uppercase">UI/UX Designer <span class="place open-sans-font">Themeforest</span></h5>
+                            <p class="open-sans-font">Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt</p>
+                            <img style="width: 300px;" src="img/about/2020 second.jpg" alt="">                       
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-briefcase"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2005 - 2013</span>
+                            <h5 class="poppins-font text-uppercase">Consultant <span class="place open-sans-font">Videohive</span></h5>
+                            <p class="open-sans-font">Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 m-15px-tb">
+                <div class="resume-box">
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2015</span>
+                            <h5 class="poppins-font text-uppercase">Engineering Degree <span class="place open-sans-font">Oxford University</span></h5>
+                            <p class="open-sans-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore</p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2012</span>
+                            <h5 class="poppins-font text-uppercase">Master Degree <span class="place open-sans-font">Kiev University</span></h5>
+                            <p class="open-sans-font">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut adipisicing</p>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <i class="fa fa-graduation-cap"></i>
+                            </div>
+                            <span class="time open-sans-font text-uppercase">2009</span>
+                            <h5 class="poppins-font text-uppercase">Bachelor Degree <span class="place open-sans-font">Tunis High School</span></h5>
+                            <p class="open-sans-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div> -->
+        <!-- Experience & Education Ends -->
+    </div>
+
+   
+
+
+
+</section>
+<!-- Main Content Ends -->
+
+<!-- Template JS Files -->
+<script src="js/jquery-3.5.0.min.js"></script>
+<script src="js/styleswitcher.js"></script>
+<script src="js/preloader.min.js"></script>
+<script src="js/fm.revealator.jquery.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpGridGallery.js"></script>
+<script src="js/jquery.hoverdir.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+
+
+</html>
+
+<style>
+    .aboutt h3{
+        /* margin-top: 117px; */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+  
+    .aboutt p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        
+    }
+
+
+  
+ 
+    </style>
+    
+ 
