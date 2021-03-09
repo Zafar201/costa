@@ -1567,6 +1567,10 @@ body.light hr.separator {
     line-height: 28px;
   }
 }
+/* @media (min-width: 300px)
+.d-sm-block{
+  display: block!important;
+} */
 
 @media (max-width: 576px) {
   .btn {
